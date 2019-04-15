@@ -7,11 +7,11 @@ SetWorkingDir A_ScriptDir  ; Ensures a consistent starting directory.
 global save_dir:=A_AppData "\Sekiro\76561198096954600\"
 global original_save_name:="S0000.sl2"
 
-~$Joy7::
+~$f4::
 Save()
 return
 
-~$Joy11::
+~$f8::
 Load()
 return
 
