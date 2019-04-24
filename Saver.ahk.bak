@@ -15,19 +15,19 @@ SetTimer("AutoSave",auto_save_interval)
 return
 */
 
-~$f4::
+~$Joy7::
 Save()
 return
 
-~f8::
+~$Joy9::
 Load()
 return
-
-~f9::
+/*
+~$Joy4::
 AutoLoad()
 return
-
-~f5::
+*/
+~$Joy11::
 AutoSave()
 return
 
