@@ -2,12 +2,14 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 ;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir A_ScriptDir  ; Ensures a consistent starting directory.
-#include ThreadManager.ahk
+;#include ThreadManager.ahk
 
 global save_dir:=A_AppData "\Sekiro\76561198096954600\"
 global max_auto_save:=20
 global original_save_name:="S0000.sl2"
 global auto_save_interval:=1000*60*2
+
+DirCreate Format(save_dir "\Autosave")
 
 /*
 #Persistent
